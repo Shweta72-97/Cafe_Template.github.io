@@ -106,19 +106,6 @@ opacity:0.8;
 float:right;
 padding-top:16px;
 }
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width:300px)
-{
-span.psw
-{
-display:block;
-float:none;
-}
-
-
-
-
-
 .fade
 {
 -webkit-animation-name:fade;
@@ -140,4 +127,11 @@ opacity: 1
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+@media screen and (max-width:300px)
+{
+span.psw
+{
+display:block;
+float:none;
 }
